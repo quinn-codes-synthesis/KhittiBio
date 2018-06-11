@@ -1,0 +1,45 @@
+<style>
+:root {
+  --yg: #eeff08;
+  --pr: #660033;
+}
+  
+body {
+  background-color: #000000;
+  color: #568203;
+  font-family: Georgia, Serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.yellow-text {
+  color: var(--yg);
+  font-size: 14px;
+  font-family: courier new, courier, monospace;
+}
+
+#lyrics {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--pr);
+}
+</style>
+
+<p>
+&nbsp;
+</p>
+
+<div class=yellow-text>Last Updated: June 11, 2018</div>
+<br>
+<span class=yellow-text>♫</span>&nbsp;<span id=lyrics>In times of turmoil<br />
+In times like these<br />
+Beliefs contagious<br />
+Spreading disease<br />
+<br />
+This wretched mischief is now coursing through your souls<br />
+Never to let go<br />
+Never to let go<br />
+<br />
+Them rats!</span>
+
+<p>more test</p>
