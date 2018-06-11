@@ -1,40 +1,69 @@
-Background Color - #000000
+<!--Background Color - #000000
 Font Color - #568203
 Purple-Red Text - #660033
-Yellow-Green - #eeff08
+Yellow-Green - #eeff08-->
 
+<!-- I have utterly no idea if the below attempts to get CSS and particular fonts working are going to work with the site the code is ultimately going on or not. But I figure that, even if it doesn't, learning how to put it into the html doc is worth my time?-->
 
-<p>&nbsp;</p>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+<link href="https://fonts.googleapis.com/css?family=Georgia" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Courier" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Courier-New" rel="stylesheet" type="text/css">
 
-<p style="text-align:center;"><span style="color:#eeff08;"><span style="font-size:14px;"><span style="font-family:'courier new', courier, monospace;">Last Updated: June 11, 2018</span> </span></span></p>
+<style>
+body {
+  background-color: #000;
+  color: #568203;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 14px;
+  padding: 10px;
+}
+p {
+  padding: 10px;
+  line-height: 120%;
+}
+.music-notes-etc {
+  color: #eeff08;
+}
 
-<p style="text-align:center;"><span style="font-size:14px;"><span style="font-family:georgia, serif;"><em><span style="color:#eeff08;">♫</span>&nbsp;<span style="color:#660033;"> In times of turmoil<br />
-In times like these<br />
-Beliefs contagious<br />
-Spreading disease<br />
-<br />
-This wretched mischief is now coursing through your souls<br />
-Never to let go<br />
-Never to let go<br />
-<br />
-Them rats!</span> <span style="color:#eeff08;">♫</span></em></span></span></p>
+.purple-red {
+  color: #603;
+  font-style: italic;
+  padding: 3px;
+  line-height: 120%;
+}
 
-<p style="text-align:center;"><span style="font-family:georgia, serif;"><span style="color:#eeff08;"><span style="font-size:24px;">*</span></span><span style="color:#78184A;"><span style="font-size:20px;">Khatja &lsquo;Khitti&rsquo; Elysse von Schreier</span></span><span style="color:#eeff08;"><span style="font-size:24px;">*</span></span><br />
-<span style="font-size:14px;"><span style="color:#eeff08;">*</span><span style="color:#B22222;">Redhead</span><span style="color:#eeff08;">*</span><span style="color:#3D5229;">Green-eyed</span><span style="color:#eeff08;">*</span><span style="color:#cc99ff;">31</span><span style="color:#eeff08;">*</span><span style="color:#ffcccc;">Human</span><span style="color:#eeff08;">*</span><span style="color:#bbbbbb;">Templar of Cyris</span><span style="color:#eeff08;">*</span><span style="color:#990066;">5&rsquo;6&rdquo;</span><span style="color:#eeff08;">*</span><span style="color:#66ffcc;">155lbs</span><span style="color:#eeff08;">*</span><br />
-<span style="color:#eeff08;">*</span><span style="color:#cc3300;">Brand&rsquo;s woman</span><span style="font-size:14px;"><span style="color:#eeff08;">*</span><span style="color:#3366ff;">Mother of Dominic Connor</span><span style="color:#eeff08;">*</span><span style="color:#cc0000;">Lionel&rsquo;s second-in-command</span><span style="color:#eeff08;">*</span><br />
-<span style="color:#eeff08;">*</span><span style="color:#ffcc00;">Chosen by Tenbatsu Kaji</span></span><span style="color:#eeff08;">*</span><span style="font-size:14px;"><span style="color:#66ccff;">Leader of the Paladin&#39;s Guild</span><span style="color:#eeff08;">*</span></span></span></span></p>
+</style>
 
-<p style="text-align:center;">&nbsp;</p>
+<div class="container-fluid">
+<p><span style="color:#eeff08;"><span style="font-family:'courier new', courier, monospace;">Last Updated: June 11, 2018</span> </span></p>
 
-<p style="text-align:center;"><span style="color:#eeff08;"><span style="font-size:14px;"><span style="font-family:verdana, geneva, sans-serif;"><em>♫</em></span></span></span><span style="color:#E25D4F;"><span style="font-size:14px;"><span style="font-family:verdana, geneva, sans-serif;"><em>&nbsp;</em></span></span></span><span style="color:#660033;"><span style="font-size:14px;"><span style="font-family:georgia, serif;"><em>Into your sanctum<br />
-You let them in<br />
-Now all your loved ones<br />
-And all your kin<br />
-<br />
-Will suffer punishments beneath the wrath of God<br />
-Never to forgive<br />
-Never to forgive<br />
-<br />
+<p><span style="color:#eeff08;">♫</span>&nbsp;<span class="purple-red"> In times of turmoil<br>
+In times like these<br>
+Beliefs contagious<br>
+Spreading disease<br>
+<br>
+This wretched mischief is now coursing through your souls<br>
+Never to let go<br>
+Never to let go<br>
+<br>
+Them rats!</span>&nbsp;<span style="color:#eeff08;">♫</span></p>
+
+<p><span style="color:#eeff08;"><span style="font-size:24px;">*</span></span><span style="color:#78184A;"><span style="font-size:20px;">Khatja 'Khitti' Elysse von Schreier</span></span><span style="color:#eeff08;"><span style="font-size:24px;">*</span></span><br>
+<span style="font-size:14px;"><span style="color:#eeff08;">*</span><span style="color:#B22222;">Redhead</span><span style="color:#eeff08;">*</span><span style="color:#3D5229;">Green-eyed</span><span style="color:#eeff08;">*</span><span style="color:#cc99ff;">31</span><span style="color:#eeff08;">*</span><span style="color:#ffcccc;">Human</span><span style="color:#eeff08;">*</span><span style="color:#bbbbbb;">Templar of Cyris</span><span style="color:#eeff08;">*</span><span style="color:#990066;">5&rsquo;6&rdquo;</span><span style="color:#eeff08;">*</span><span style="color:#66ffcc;">155lbs</span><span style="color:#eeff08;">*</span><br>
+<span style="color:#eeff08;">*</span><span style="color:#cc3300;">Brand&rsquo;s woman</span><span style="font-size:14px;"><span style="color:#eeff08;">*</span><span style="color:#3366ff;">Mother of Dominic Connor</span><span style="color:#eeff08;">*</span><span style="color:#cc0000;">Lionel&rsquo;s second-in-command</span><span style="color:#eeff08;">*</span><br>
+<span style="color:#eeff08;">*</span><span style="color:#ffcc00;">Chosen by Tenbatsu Kaji</span></span><span style="color:#eeff08;">*</span><span style="font-size:14px;"><span style="color:#66ccff;">Leader of the Paladin&#39;s Guild</span><span style="color:#eeff08;">*</span></span></span></p>
+
+<p><span style="color:#eeff08;"><span style="font-family:verdana, geneva, sans-serif;"><em>♫</em></span></span><span style="color:#E25D4F;"><span style="font-size:14px;"><span style="font-family:verdana, geneva, sans-serif;"><em>&nbsp;</em></span></span></span><span style="color:#660033;"><span style="font-size:14px;"><span style="font-family:georgia, serif;"><em>Into your sanctum<br>
+You let them in<br>
+Now all your loved ones<br>
+And all your kin<br>
+<br>
+Will suffer punishments beneath the wrath of God<br>
+Never to forgive<br>
+Never to forgive<br>
+<br>
 Them rats!</em></span></span></span><span style="color:#E25D4F;"><span style="font-size:14px;"><span style="font-family:verdana, geneva, sans-serif;"><em> </em></span></span></span><span style="color:#eeff08;"><span style="font-size:14px;"><span style="font-family:verdana, geneva, sans-serif;"><em>♫</em></span></span></span></p>
 
 <p>&nbsp;</p>
@@ -180,7 +209,4 @@ Rats!...</em></span></span></span><span style="color:#E25D4F;"><span style="font
 <br />
 <span style="color:#660033;"><strong>Methods for contacting me:</strong></span><span style="color:#E25D4F;"><strong> </strong></span><span style="color:#eeff08;"><strong>Discord - Khitti_Khat #8546, tells, and hmail</strong></span><span style="color:#660033;"><strong>.</strong></span><br />
 <br />
-<span style="font-size:14px;">I also play Callum.</span></span></span></p>
-
-
-
+<span style="font-size:14px;">I also play Callum.</span></span></span></p></div>
