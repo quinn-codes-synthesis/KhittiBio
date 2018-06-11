@@ -1,3 +1,23 @@
+<!--body SEEMS to be the most "default" CSS for everything? Created a couple of early classes just to have something to add on to. This html is enough of a mess that I'm probably going to have to strip it all just so I can read what I'm doing and refer to the original document as needed, but I didn't have the time to dig in much futher than that. Style tags would normally go around the below, if I wasn't going to be copy/pasting from jsfiddle.-->
+
+body {
+  background-color: #000;
+  color: #568203;
+  text-align: center;
+  font-family: georgia, serif;
+  font-size: 14px;
+}
+
+.music-notes-etc {
+  color: #eeff08;
+}
+
+.purple-red {
+  color: #603;
+}
+
+<!--the below was just some fooling around with trying to reduce the amount of tags. It wasn't long before I realized me trying to go line by line creating classes and ids and etc as I went was... not going to go as easily as I was hoping it would.-->
+
 <style>
 :root {
   --yg: #eeff08;
