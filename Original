@@ -3,7 +3,7 @@ Font Color - #568203
 Purple-Red Text - #660033
 Yellow-Green - #eeff08-->
 
-<!-- I have utterly no idea if the below attempts to get CSS and particular fonts working are going to work with the site the code is ultimately going on or not. But I figure that, even if it doesn't, learning how to put it into the html doc is worth my time?-->
+<!-- I have utterly no idea if my attempts to get these extra fonts working will play nice with the site the code is ultimately going on or not. But I figure that, even if it doesn't, learning how to put it into the html doc is worth my time.-->
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
 <link href="https://fonts.googleapis.com/css?family=Georgia" rel="stylesheet" type="text/css">
@@ -11,62 +11,56 @@ Yellow-Green - #eeff08-->
 <link href="https://fonts.googleapis.com/css?family=Courier-New" rel="stylesheet" type="text/css">
 
 <style>
-body {
-  background-color: #000;
-  color: #568203;
-  text-align: center;
-  font-family: Georgia, serif;
-  font-size: 14px;
-  padding: 10px;
-}
-p {
-  padding: 10px;
-  line-height: 120%;
-}
-.music-notes-etc {
-  color: #eeff08;
-}
+  body {
+    background-color: #000;
+    color: #568203;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  p {
+    padding: 10px;
+    line-height: 120%;
+  }
+  .yellow-italic {
+    color: #eeff08;
+    font-family: Verdana, Geneva, Sans-Serif;
+    font-style: italic;
+  }
 
-.purple-red {
-  color: #603;
-  font-style: italic;
-  padding: 3px;
-  line-height: 120%;
-}
+  .magenta-lyrics {
+    color: #603;
+    font-style: italic;
+    padding: 3px;
+    line-height: 120%;
+  }
 
 </style>
 
 <div class="container-fluid">
-<p><span style="color:#eeff08;"><span style="font-family:'courier new', courier, monospace;">Last Updated: June 11, 2018</span> </span></p>
 
-<p><span style="color:#eeff08;">♫</span>&nbsp;<span class="purple-red"> In times of turmoil<br>
-In times like these<br>
-Beliefs contagious<br>
-Spreading disease<br>
-<br>
-This wretched mischief is now coursing through your souls<br>
-Never to let go<br>
-Never to let go<br>
-<br>
-Them rats!</span>&nbsp;<span style="color:#eeff08;">♫</span></p>
+<p><span class="yellow-italic" style="font-family:'courier new', courier, monospace;">Last Updated: June 11, 2018</span></p>
+
+<!--Lyrics Pt 1-->
+
+<p><span class="yellow-italic">♫</span><span class="magenta-lyrics"> In times of turmoil<br>In times like these<br>Beliefs contagious<br>Spreading disease<br><br>This wretched mischief is now coursing through your souls<br>Never to let go<br>Never to let go<br><br>Them rats! </span><span class="yellow-italic">♫</span></p>
+
+<!--Stats Clusterfrak-->
 
 <p><span style="color:#eeff08;"><span style="font-size:24px;">*</span></span><span style="color:#78184A;"><span style="font-size:20px;">Khatja 'Khitti' Elysse von Schreier</span></span><span style="color:#eeff08;"><span style="font-size:24px;">*</span></span><br>
 <span style="font-size:14px;"><span style="color:#eeff08;">*</span><span style="color:#B22222;">Redhead</span><span style="color:#eeff08;">*</span><span style="color:#3D5229;">Green-eyed</span><span style="color:#eeff08;">*</span><span style="color:#cc99ff;">31</span><span style="color:#eeff08;">*</span><span style="color:#ffcccc;">Human</span><span style="color:#eeff08;">*</span><span style="color:#bbbbbb;">Templar of Cyris</span><span style="color:#eeff08;">*</span><span style="color:#990066;">5&rsquo;6&rdquo;</span><span style="color:#eeff08;">*</span><span style="color:#66ffcc;">155lbs</span><span style="color:#eeff08;">*</span><br>
 <span style="color:#eeff08;">*</span><span style="color:#cc3300;">Brand&rsquo;s woman</span><span style="font-size:14px;"><span style="color:#eeff08;">*</span><span style="color:#3366ff;">Mother of Dominic Connor</span><span style="color:#eeff08;">*</span><span style="color:#cc0000;">Lionel&rsquo;s second-in-command</span><span style="color:#eeff08;">*</span><br>
 <span style="color:#eeff08;">*</span><span style="color:#ffcc00;">Chosen by Tenbatsu Kaji</span></span><span style="color:#eeff08;">*</span><span style="font-size:14px;"><span style="color:#66ccff;">Leader of the Paladin&#39;s Guild</span><span style="color:#eeff08;">*</span></span></span></p>
 
-<p><span style="color:#eeff08;"><span style="font-family:verdana, geneva, sans-serif;"><em>♫</em></span></span><span style="color:#E25D4F;"><span style="font-size:14px;"><span style="font-family:verdana, geneva, sans-serif;"><em>&nbsp;</em></span></span></span><span style="color:#660033;"><span style="font-size:14px;"><span style="font-family:georgia, serif;"><em>Into your sanctum<br>
-You let them in<br>
-Now all your loved ones<br>
-And all your kin<br>
-<br>
-Will suffer punishments beneath the wrath of God<br>
-Never to forgive<br>
-Never to forgive<br>
-<br>
-Them rats!</em></span></span></span><span style="color:#E25D4F;"><span style="font-size:14px;"><span style="font-family:verdana, geneva, sans-serif;"><em> </em></span></span></span><span style="color:#eeff08;"><span style="font-size:14px;"><span style="font-family:verdana, geneva, sans-serif;"><em>♫</em></span></span></span></p>
+<!--Lyrics Pt 2-->
 
-<p>&nbsp;</p>
+<p><span class="yellow-italic">♫</span><span class="magenta-lyrics"> Into your sanctum<br>You let them in<br>Now all your loved ones<br>And all your kin<br>
+<br>Will suffer punishments beneath the wrath of God<br>Never to forgive<br>
+Never to forgive<br><br>Them rats! </span><span class="yellow-italic">♫</span></p>
+
+<!--wordbox clusterfraks-->
 
 <div style="height:185px;border:3px groove #eeff08;padding:5px;">
 <div style="height:170px;width:49%;float:left;border:2px dotted #78184A;overflow:auto;">
@@ -173,40 +167,42 @@ Them rats!</em></span></span></span><span style="color:#E25D4F;"><span style="fo
 	<li><span style="font-family:georgia, serif;">Another meeting is held by Lionel and Leone. Things continue to not go according to plan. Doubts and worries that had once plagued Khitti have returned again, though Seika, the holy sprite inside Tenbatsu Kaji, attempts to soothe her.</span></li>
 	<li><span style="font-family:georgia, serif;">Khitti, Brand, and Lionel meet on the Tranquility to discuss things on all fronts. Dozla, Brand&#39;s first mate, suggests that Khitti and Brand go on a pilgrimage to Cyris&#39; chapel in Larket.</span></li>
 	<li><span style="font-family:georgia, serif;">Meri returns from the Shadow Plane.</span></li>
-	<li><span style="font-family:georgia, serif;">During a spar between herself and Brand, Khitti comes to find that her magic has been taken away from her by Facilier, likely in retaliation. It&rsquo;s also realized that the sword and Khitti can now speak to one another, no longer barred by Khitti&rsquo;s necromantic abilities. Khitti also asked if Brand could be given the ability to hear the sword, in case of emergencies. He was and didn&rsquo;t like it. The first major KhittiBrand argument since her rebirth ensued.</span></li>
+	<li><span style="font-family:georgia, serif;">During a spar between herself and Brand, Khitti comes to find that her magic has been taken away from her by Facilier, likely in retaliation. It&rsquo;s also realized that the sword and Khitti can now speak to one another, no longer barred by Khitti's necromantic abilities. Khitti also asked if Brand could be given the ability to hear the sword, in case of emergencies. He was and didn&rsquo;t like it. The first major KhittiBrand argument since her rebirth ensued.</span></li>
 	<li><span style="font-family:georgia, serif;">Khitti and Brand attend the Shishi vs Eirik fight in the Redskull Trophy Ring. The prize for the fight was the fabled Tenbatsu Kaji, the blade of Cyris. Neither contender went home with it. Instead, it chose Khitti. Being a necromancer, Khitti is unable to wield the sword, or even be around it, without it sapping her strength and magic. As per usual, Brand and Lionel are skeptical.</span></li>
-	<li><span style="font-family:georgia, serif;">(Timeline has been shortened and will continue to be as time progresses because ain&#39;t nobody got time for that.) </span></li>
+	<li><span style="font-family:georgia, serif;">(Timeline has been shortened and will continue to be as time progresses because ain't nobody got time for that.) </span></li>
 </ul>
 </div>
 </div>
 
-<p>&nbsp;</p>
+<!--End Box Clusterfrak, begin Lyrics Pt 3-->
 
-<p style="text-align:center;"><span style="color:#eeff08;"><span style="font-size:14px;"><span style="font-family:verdana, geneva, sans-serif;"><em>♫</em></span></span></span><span style="color:#660033;"><span style="font-size:14px;"><span style="font-family:verdana, geneva, sans-serif;"><em>&nbsp;</em></span><span style="font-family:georgia, serif;"><em>They&#39;re still coming after you<br />
-And there&#39;s nothing you can do&hellip;<br />
-They&#39;re still coming after you<br />
-And there&#39;s nothing you can do...<br />
-<br />
-Rats!...</em></span></span></span><span style="color:#E25D4F;"><span style="font-size:14px;"><span style="font-family:verdana, geneva, sans-serif;"><em> </em></span></span></span><span style="color:#eeff08;"><span style="font-size:14px;"><span style="font-family:verdana, geneva, sans-serif;"><em>♫</em></span></span></span></p>
+<br><p><span class="yellow-italic">♫</span><span class="magenta-lyrics"> They're still coming after you<br>And there's nothing you can do...<br>They're still coming after you<br>And there's nothing you can do...<br><br>Rats!... </span><span class="yellow-italic">♫</span></p>
 
-<p><br />
+<!-- OOC and etc-->
+
+<br><p>
 <span style="font-family:'courier new', courier, monospace;"><span style="color:#660033;"><span style="font-size:16px;"><strong>OOC </strong></span></span><br />
 <span style="color:#eeff08;">Brand is love, Brand is life. Lionel is BFF. Meri is the best wife.&lt;33333</span></span></p>
 
 <p><span style="color:#6699ff;"><em><strong><span style="font-family:'courier new', courier, monospace;"><span style="font-size:16px;">Think your character might be eligible for the Paladin&#39;s Guild? Send me a tell or an hmail and we&#39;ll talk about things! I&#39;m pretty flexible with who joins, so long as the couple of requirements are met.&nbsp;https://www.hollowgame.com/wiki/Paladin%27s_Guild</span></span></strong></em></span></p>
 
-<p><br />
-<span style="font-family:'courier new', courier, monospace;"><span style="color:#660033;">IC pic:</span> Made by me.<br />
-<span style="color:#660033;">Lyrics:</span> Rats - Ghost<br />
-<br />
-<span style="color:#660033;"><strong>Arcs I&rsquo;m Active In</strong></span><br />
-<span style="color:#eeff08;">The Whisperer In Darkness</span> - https://www.hollowgame.com/wiki/Arc:The_Whisperer_In_Darkness (<span style="color:#660033;">Arc Leader: Me!</span>)<br />
-<span style="color:#eeff08;">What You Leave Behind</span> - https://www.hollowgame.com/wiki/Arc:What_You_Leave_Behind (<span style="color:#660033;">Arc Leader: Lionel</span>)<br />
-<br />
-<span style="color:#660033;">Interested in utilizing the Shadow Plane for your RPs or Arcs and are confused on some things or need more information than what&rsquo;s on the wiki? Let me know! I wrote the information on the wiki page myself and am ready and willing to help out! </span>https://www.hollowgame.com/wiki/Plane_of_Shadows<br />
-<br />
-<span style="font-size:12px;"><span style="color:#660033;">Brand and I have a super awesome KhittiBrand playlist!:</span> https://open.spotify.com/user/jaeranna13/playlist/68QDrdQyJITG2cuMRx73b5<br />
-<br />
-<span style="color:#660033;"><strong>Methods for contacting me:</strong></span><span style="color:#E25D4F;"><strong> </strong></span><span style="color:#eeff08;"><strong>Discord - Khitti_Khat #8546, tells, and hmail</strong></span><span style="color:#660033;"><strong>.</strong></span><br />
-<br />
-<span style="font-size:14px;">I also play Callum.</span></span></span></p></div>
+<p><br>
+<span style="font-family:'courier new', courier, monospace;"><span style="color:#660033;">IC pic:</span> Made by me.<br>
+<span style="color:#660033;">Lyrics:</span> Rats - Ghost<br>
+<br>
+<span style="color:#660033;"><strong>Arcs I&rsquo;m Active In</strong></span><br>
+<span class="yellow-italic">The Whisperer In Darkness -</span> https://www.hollowgame.com/wiki/Arc:The_Whisperer_In_Darkness (<span style="color:#660033;">Arc Leader: Me!</span>)<br>
+<span class="yellow-italic">What You Leave Behind -</span> https://www.hollowgame.com/wiki/Arc:What_You_Leave_Behind (<span style="color:#660033;">Arc Leader: Lionel</span>)<br>
+<br>
+<span style="color:#660033;">Interested in utilizing the Shadow Plane for your RPs or Arcs and are confused on some things or need more information than what's on the wiki? Let me know! I wrote the information on the wiki page myself and am ready and willing to help out! </span>https://www.hollowgame.com/wiki/Plane_of_Shadows<br>
+<br>
+<span style="font-size:12px;"><span style="color:#660033;">Brand and I have a super awesome KhittiBrand playlist!:</span> https://open.spotify.com/user/jaeranna13/playlist/68QDrdQyJITG2cuMRx73b5<br>
+<br>
+<span style="color:#660033;"><strong>Methods for contacting me:</strong></span>
+<span class="yellow-italic"><b>Discord - Khitti_Khat #8546, tells, and hmail</b></span>
+<br>
+<br>
+<span>I also play Callum.</span>
+</span>
+</span>
+</p></div>
